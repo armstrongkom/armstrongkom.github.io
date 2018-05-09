@@ -1,0 +1,1243 @@
+/*======================================
+        Basic Properties starts
+=========================================*/
+body
+{
+    overflow-x: hidden;
+    
+}
+
+
+.pace-running .entire-content
+{
+    opacity: 0;
+}
+
+
+
+.pace-done .entire-content
+{
+    opacity: 1;
+    transition: all 1s ease-in;
+}
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+  
+
+/*=======================================
+         Basic Properties Ends
+=========================================*/
+  
+
+
+/*======================================
+           Navigation starts
+=========================================*/
+
+
+.navbar
+{
+    padding: 24px 0px;     
+    border-bottom: none !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar ul li a
+{
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px; 
+    font-size: 13px;
+    transition: all 0.5s ease-in;
+    background: transparent !important;
+}
+
+.navbar ul li a:hover, .navbar ul li a:focus
+{
+    color: deepskyblue !important;
+    background: none !important;
+}
+
+.navbar-toggle
+{
+    border: 1px solid white !important;
+    color: white !important;
+    transition: all 0.5s ease-in;
+}
+
+.icon-bar
+{
+    color: white !important;
+    background-color: white !important;
+}
+.navbar-toggle:hover
+{
+    background-color: deepskyblue !important;
+}
+
+ 
+.navbar-inverse .navbar-collapse
+{
+  border-color: transparent !important;  
+       
+}
+
+  
+.location
+{
+    border: 1px solid white;
+    border-radius: 50px;
+    
+}
+
+.navbar-inverse
+{
+    background-color: transparent !important;
+}  
+
+
+
+/*======================================
+            Navigation Ends
+=========================================*/
+
+/*=======================================
+ Sticky Navigation with background color
+=========================================*/
+ 
+.secondary
+{
+    background-color:#34495e;
+}
+
+
+/*======================================
+            Slider Starts
+=========================================*/
+
+.slider
+{
+    width: 100%;
+    height: 1000px;;
+    background-image: url(..//img/slider.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+    
+}
+
+.slider-overlay
+{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.65);
+    position: relative;
+}
+
+
+.slider-content
+{
+    position: absolute;
+    top: 37%;
+    width: 100%;
+}
+
+.icons .fa
+{
+    font-size: 35px;
+    margin-right: 7px;
+    
+}
+
+
+.cta-div
+{
+    margin-top: 30px;
+     
+}
+
+
+.btn1
+{
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-top-left-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right: -6px;
+    
+}
+
+
+
+.btn1:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    
+}
+
+
+.btn2
+{
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-bottom-right-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right:10px;
+}
+
+
+
+.btn2:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+    
+}
+
+.social-networks a.fa
+{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.5s ease-in;
+    
+}
+.social-networks2 a.fa
+{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.5s ease-in;
+    
+}
+
+.social-networks a.fa:hover
+{
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: white;
+    border: 1px solid deepskyblue;
+    
+}
+
+ 
+
+
+
+
+
+
+
+.slider .text, .slider .typed-cursor
+{
+    display: inline;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+.primary
+{
+    color: orangered;
+}
+
+.typed-cursor
+{
+  opacity: 1;
+  animation: blink 0.7s infinite;
+  -webkit-animation:blink 0.7s infinite;
+  -mox-animation:blink 0.7s infinite;
+    
+    
+}
+
+@keyframes blink
+{
+    0%
+    {
+        opacity: 1;
+    }
+    
+    
+    50%
+    {
+        opacity: 0;
+    }
+    
+    100%
+    {
+        opacity: 1;
+    }
+    
+    
+    
+}
+
+@-webkit-keyframes blink
+{
+    0%
+    {
+        opacity: 1;
+    }
+    
+    
+    50%
+    {
+        opacity: 0;
+    }
+    
+    100%
+    {
+        opacity: 1;
+    }
+  
+}
+
+@-moz-keyframes blink
+{
+    0%
+    {
+        opacity: 1;
+    }
+    
+    
+    50%
+    {
+        opacity: 0;
+    }
+    
+    100%
+    {
+        opacity: 1;
+    }
+    
+  
+}  
+
+/*=======================================
+            Slider Ends
+=========================================*/
+
+
+/*------------------about section---------------------------*/
+
+.about-text
+{
+    padding-left: 20px;
+}
+h5.heading
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+    
+}
+
+h4.section-title
+{
+    font-size: 36px;
+    font-weight: 700!important;
+}
+
+
+
+.hr
+{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px solid #FF6A24!important;
+    border-width: 10px;
+}
+
+.horizontal-line1
+{
+    width: 50px;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #FF6A24;
+    border-top: 3px solid #FF6A24!important;
+    border-width: 5px;
+}
+.horizontal-line2
+{
+     display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px solid #FF6A24!important;
+    border-width: 10px;
+    
+}
+.fun-info{
+    
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
+.fun-item
+{     
+    padding: 4px ;
+    margin: auto;
+    background-color: #f2f2f2;
+    border:3px solid white;
+    border-spacing: 15px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+}
+.fun-item:hover
+{     
+    padding: 4px ;
+    margin: auto;
+    background-color: deepskyblue;
+    border:3px solid white;
+    border-spacing: 15px;
+    border-radius: 5px;
+   
+}
+
+}
+.bg-light
+{
+
+background: -webkit-linear-gradient(90deg, rgba(239, 243, 247, 0.62), rgb(174, 179, 183));
+background: linear-gradient(90deg, rgba(239, 243, 247, 0.62), rgb(174, 179, 183));
+
+}
+
+
+/*------------------social icon hover---------------
+.imgBx
+{ 
+    position: absolute;
+    top: 0;
+    left:0;
+    
+}
+
+.social
+{
+    width: 300px;
+}
+
+
+.social-icon
+{
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+
+.social-icon li a {
+    display: block;
+    padding: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #fff;
+    color: #262626;
+}
+
+------------*/
+
+
+
+
+
+
+.social-networks2 a.fa
+{
+    border: 1px solid grey;
+    padding: 10px;
+    color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.5s ease-in;
+    
+}
+
+
+
+.social-networks2 a.fa:hover
+{
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: white;
+    border: 1px solid deepskyblue;
+    
+}
+
+
+
+
+.social-icon
+{
+    position: relative;
+    top: 60%;
+    left: 69%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    
+}
+.social-icon li
+{
+    position: relative;
+    list-style: none;
+    float: left;
+    
+}
+
+.social-icon li a
+{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    white-space: nowrap;
+    text-decoration: none !important;
+    transition: width 0.5s;
+    box-sizing: border-box;
+}
+
+.social-icon li:hover a 
+{
+    width: 120px;
+}
+
+.social-icon li a .fa
+{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+   
+    border-right: 2px solid #fff;
+   
+}
+
+.social-icon li a span
+{
+    color: #fff;
+    padding-left: 10px;
+    text-decoration: none;
+}
+    
+}
+
+
+.social-icon li:nth-child(1) a
+{
+    background: #3b5999;
+}
+
+.social-icon li:nth-child(2) a
+{
+    background: #55acee;
+}
+
+
+.social-icon li:nth-child(3) a
+{
+    background: #dd4b39;
+}
+
+
+.social-icon li:nth-child(4) a
+{
+    background: #3b5999;
+}
+
+
+.social-icon li:nth-child(5) a
+{
+    background: #e4405f;
+}
+
+
+.social-icon li:nth-child(1) a
+{
+    background: #3b5999;
+}
+
+
+
+
+
+
+
+
+/*Skill*/
+
+.skillbar h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+a.skill-btn {
+	border: 2px solid #2ecc71;
+	border-radius: 0;
+	text-transform: uppercase;
+	padding: 14px 40px 10px;
+	font-weight: 700;
+	color: #2ecc71;
+	margin-top: 25px;
+	transition: 0.3s
+}
+
+a.skill-btn:hover {
+	background: #2ecc71;
+	color: #fff;
+}
+
+.skill-progress .progress {
+	height: 30px;
+	border-radius: 0;
+	margin-bottom: 30px;
+}
+
+.skill-progress .progress p {
+	margin: 0;
+	font-size: 18px;
+	display: block;
+	width: 100%;
+	text-align: right;
+	padding-right: 10px;
+	color: #fff;
+}
+
+.skill-progress .progress-bar {
+	background-color: #2ecc71;
+}
+
+.skill-progress p {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: #566366;
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.skill-progress {
+	padding-top: 50px;
+}
+
+.skill-area {
+	padding: 80px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+@keyframes animate-positive
+{
+    0%
+    {
+        width: 0;
+    }
+}
+
+
+
+
+
+
+/*=======================================
+            Services styles
+=========================================*/
+
+.service-area
+{
+    margin-top: 30px;
+}
+
+.service-area p
+{
+   margin-bottom: -5px;
+}
+
+
+
+
+.service-wrap {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+    padding: 25px 35px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+    margin-top: 20px;
+    
+}
+
+.service-wrap::before, .service-wrap::after {
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #34495e;    
+    
+}
+
+.service-wrap::before{
+    top: -37px;
+    left: 100%;  
+    
+}
+
+.service-wrap:hover:before{    
+    left: -27px;
+    opacity: 1;
+    
+}
+
+
+.service-wrap::after{
+     right: 100%;
+     bottom: -37px;
+    
+}
+
+.service-wrap:hover:after{
+     right: -27px;
+     opacity: 1;
+    
+}
+
+.service-wrap:hover{
+     color: white;    
+}
+
+.service-wrap:h3{
+     color: white;    
+}
+
+
+.service-wrap:hover h3{
+     color: white;    
+}
+
+
+.service-wrap:hover h3:after{
+     background-color: white;    
+}
+
+.service-icon i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    
+}
+
+
+.service-wrap:hover .service-icon i{
+    
+    transform:rotate(360deg);
+}
+
+.service-wrap h3
+{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+    
+}
+
+.service-wrap p
+{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+/*=======================================
+            Work styles
+=========================================*/
+
+.work
+{
+    margin-top: 25px;
+}
+
+.row.no-gutters [class*=col-]
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.img-wrapper
+{
+    overflow: hidden;
+}
+
+.img-wrapper img
+{
+   transition: transform 0.5s ease;
+   width: 100%;
+    
+    
+}
+
+.img-wrapper img:hover
+{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+
+/*=======================================
+            Work style ends
+=========================================*/
+
+ 
+/*=======================================
+              Team styles
+=========================================*/  
+.team-member
+{
+    margin-top: 50px;
+}
+
+.team-member
+{
+    margin:0 15px;
+}
+ 
+.team-member-info
+{
+    padding: 10px 0 30px 0;
+}
+
+
+h4.team-member-name
+{
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+
+h4.team-member-designation
+{
+    color: #34c6d3;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-style: italic;
+    
+}
+
+.social-list
+{
+    padding-left: 0;
+}
+
+.social-list li
+{
+ list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-list i
+{
+    font-size: 17px;
+}
+
+.icon-gray i
+{
+    color: #64707b;    
+    
+}
+  
+
+ 
+
+
+/*=======================================
+            Blog style Start
+=========================================*/
+
+.latest-news-area
+{
+    margin-top: 40px;
+}
+
+.latest-news-wrap
+{
+    
+    box-shadow: 0px 3px 10px rgba(0,0,0,.1);
+    
+}
+
+.news-img
+{
+    position: relative;
+}
+
+.news-img:before
+{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content:"";
+    opacity: 0;
+    transform: scale(.8);
+    transition: all 0.5s; 
+    
+}
+
+
+.latest-news-wrap:hover .news-img:before
+{
+    opacity: .5;
+    transform: scale(1);
+ 
+}
+
+
+.deat
+{
+    background: #f89406 none repeat scroll 0 0;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    padding: 10px;
+   
+}
+
+.deat span
+{
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+ 
+}
+
+
+.news-content
+{
+    padding: 20px;
+    margin-left:3px;
+}
+
+
+
+.news-content  i
+{
+    font-size: 18px;
+    display: inline-block;
+ 
+}
+ 
+
+.news-content .fa
+{
+    padding: 10px 10px;
+    cursor: pointer;
+ 
+}
+
+
+.news-content .fa-facebook
+{
+    color: #3b5995;    
+    
+}
+
+.news-content .fa-twitter
+{
+    color: #0084b4;    
+    
+}
+
+.news-content .fa-linkedin
+{
+    color: #0077b5;    
+    
+}
+
+
+.news-content .fa-youtube
+{
+    color: red;    
+    
+}
+.news-content .fa-whatsapp
+{
+    color: #34af23;    
+    
+}
+
+.news-content p
+{
+    margin-bottom: 15px;
+    text-align: justify;
+    margin-top: 20px;
+    
+}
+
+.news-content a
+{
+    font-size: 14px;
+    background-color: #34495e;
+    padding: 10px 20px;
+    color: white;
+    transition: all 0.5s  ease-in;
+}
+
+.news-content a:hover
+{
+    font-size: 14px;
+    border: 1px solid #34495e;
+    border-top-right-radius: 20px;
+    background-color: transparent;
+    color: #34495e;
+    margin-right: 0;
+    text-decoration: none;
+    
+    
+}
+
+/*=======================================
+            Blog style Ends
+=========================================*/
+
+
+
+/*=======================================
+        Counter stat style starts
+=========================================*/
+
+
+.stat
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(..//img/cover-bg-1.jpg);
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    color: white;
+    background-attachment: fixed;
+    margin-top: 100px;
+    
+}
+
+
+.stat i
+{
+    font-size: 85px;
+}
+ 
+
+
+.stat-items h2
+{
+    font-weight: bolder;
+    font-size: 42px;
+    color: deepskyblue;
+}
+
+
+
+.stat p
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/*=======================================
+        Counter stat style Ends
+=========================================*/
+
+
+
+/*=======================================
+        Contact area style starts
+=========================================*/
+
+.contact-area
+{
+    margin-top: 60px;
+}
+
+
+.form-control
+{
+    border-radius: 0px !important;
+    border: 1px solid #34495e !important;
+    
+}
+
+
+.contact-form button.btn
+{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 12px 43px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+.border-bottom-now
+{
+    width: 40px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+}
+
+.contact-infos
+{
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: -30px;
+    background: darkcyan;
+    padding-top: 35px;
+    padding-bottom: 35px;
+ 
+    
+}
+
+.contact-infos .fa
+{
+    color: white;
+    font-size: 26px;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    
+}
+
+.contact-infos p
+{
+    color: white;
+    margin-top: 15px;
+    
+}
+ 
+/*=======================================
+        Contact area style End
+=========================================*/
+
+
+
+/*=======================================
+        Map area style starts
+=========================================*/
+
+.maps
+{
+    margin-top: 20px;
+}
+
+
+/*=======================================
+        Map area style Ends
+=========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
